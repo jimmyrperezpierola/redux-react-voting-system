@@ -1,0 +1,59 @@
+
+.results {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #8bc34a;
+  display: flex;
+  flex-direction: column;
+}
+.results .tally {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.results .tally .entry {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.results .tally h1 {
+  width: 25%;
+}
+.results .tally .voteVisualization {
+  height: 50px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+
+  background-color: #8bc34a;
+}
+.results .tally .votesBlock {
+  background-color: white;
+  transition: width 0.5s;
+}
+.results .tally .voteCount {
+  font-size: 2rem;
+}
+
+.results .management {
+  display: flex;
+
+  height: 2em;
+  border-top: 1px solid #000;
+}
+
+.results .management button {
+  border: 0;
+  width: 50%;
+  background-color: #7aab41;
+  color: #000;
+}
+.results .management .next {
+  flex: 1;
+}
